@@ -1,0 +1,8 @@
+run = "node index.js"
+
+[nix]
+channel = "stable-22_11"
+
+[[ports]]
+localPort = 8080
+externalPort = 80
